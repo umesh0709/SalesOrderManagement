@@ -1,0 +1,197 @@
+[
+  {
+    "orderId": 56567,
+    "userId": 10490,
+    "orderDate": "2025-01-10T09:30:00Z",
+    "subtotal": 89.00,
+    "orderStatus": "InProgress",
+    "orderLineItems": [
+      {
+        "orderLineItemId": 1,
+        "lineItemId": "LI-101",
+        "productName": "Wireless Mouse",
+        "manufacturer": "Logitech",
+        "quantity": 1,
+        "price": 89.00,
+        "subtotal": 89.00
+      }
+    ],
+    "customer": {
+      "customerId": 9001,
+      "name": "Rahul Sharma",
+      "address": "MG Road, Bengaluru",
+      "zipCode": "560001"
+    },
+    "tax": {
+      "sgstPercent": 9,
+      "sgstAmount": 8.01,
+      "cgstPercent": 9,
+      "cgstAmount": 8.01
+    },
+    "note": "Urgent delivery"
+  },
+  {
+    "orderId": 56568,
+    "userId": 10491,
+    "orderDate": "2025-02-05T14:15:00Z",
+    "subtotal": 145.50,
+    "orderStatus": "Completed",
+    "orderLineItems": [
+      {
+        "orderLineItemId": 2,
+        "lineItemId": "LI-102",
+        "productName": "USB Keyboard",
+        "manufacturer": "Dell",
+        "quantity": 1,
+        "price": 45.50,
+        "subtotal": 45.50
+      },
+      {
+        "orderLineItemId": 3,
+        "lineItemId": "LI-103",
+        "productName": "HDMI Cable",
+        "manufacturer": "AmazonBasics",
+        "quantity": 2,
+        "price": 50.00,
+        "subtotal": 100.00
+      }
+    ],
+    "customer": {
+      "customerId": 9002,
+      "name": "Anita Verma",
+      "address": "Andheri West, Mumbai",
+      "zipCode": "400058"
+    },
+    "tax": {
+      "sgstPercent": 9,
+      "sgstAmount": 13.10,
+      "cgstPercent": 9,
+      "cgstAmount": 13.10
+    },
+    "note": "Gift wrap items"
+  },
+  {
+    "orderId": 56569,
+    "userId": 10492,
+    "orderDate": "2025-03-12T11:00:00Z",
+    "subtotal": 299.99,
+    "orderStatus": "Pending",
+    "orderLineItems": [
+      {
+        "orderLineItemId": 4,
+        "lineItemId": "LI-104",
+        "productName": "Bluetooth Headphones",
+        "manufacturer": "Sony",
+        "quantity": 1,
+        "price": 299.99,
+        "subtotal": 299.99
+      }
+    ],
+    "customer": {
+      "customerId": 9003,
+      "name": "Suresh Iyer",
+      "address": "Adyar, Chennai",
+      "zipCode": "600020"
+    },
+    "tax": {
+      "sgstPercent": 9,
+      "sgstAmount": 27.00,
+      "cgstPercent": 9,
+      "cgstAmount": 27.00
+    },
+    "note": ""
+  },
+  {
+    "orderId": 56570,
+    "userId": 10493,
+    "orderDate": "2025-04-01T16:45:00Z",
+    "subtotal": 560.00,
+    "orderStatus": "Cancelled",
+    "orderLineItems": [
+      {
+        "orderLineItemId": 5,
+        "lineItemId": "LI-105",
+        "productName": "Office Chair",
+        "manufacturer": "GreenSoul",
+        "quantity": 1,
+        "price": 560.00,
+        "subtotal": 560.00
+      }
+    ],
+    "customer": {
+      "customerId": 9004,
+      "name": "Neha Kapoor",
+      "address": "Sector 18, Noida",
+      "zipCode": "201301"
+    },
+    "tax": {
+      "sgstPercent": 9,
+      "sgstAmount": 50.40,
+      "cgstPercent": 9,
+      "cgstAmount": 50.40
+    },
+    "note": "Order cancelled by user"
+  },
+  {
+    "orderId": 56571,
+    "userId": 10494,
+    "orderDate": "2025-05-20T08:20:00Z",
+    "subtotal": 1250.00,
+    "orderStatus": "InProgress",
+    "orderLineItems": [
+      {
+        "orderLineItemId": 6,
+        "lineItemId": "LI-106",
+        "productName": "Laser Printer",
+        "manufacturer": "HP",
+        "quantity": 1,
+        "price": 1250.00,
+        "subtotal": 1250.00
+      }
+    ],
+    "customer": {
+      "customerId": 9005,
+      "name": "Amit Joshi",
+      "address": "Baner, Pune",
+      "zipCode": "411045"
+    },
+    "tax": {
+      "sgstPercent": 9,
+      "sgstAmount": 112.50,
+      "cgstPercent": 9,
+      "cgstAmount": 112.50
+    },
+    "note": "Deliver during office hours"
+  },
+  {
+    "orderId": 56572,
+    "userId": 10495,
+    "orderDate": "2025-06-02T13:10:00Z",
+    "subtotal": 78.00,
+    "orderStatus": "Completed",
+    "orderLineItems": [
+      {
+        "orderLineItemId": 7,
+        "lineItemId": "LI-107",
+        "productName": "Notebook Pack",
+        "manufacturer": "Classmate",
+        "quantity": 3,
+        "price": 26.00,
+        "subtotal": 78.00
+      }
+    ],
+    "customer": {
+      "customerId": 9006,
+      "name": "Pooja Mehta",
+      "address": "Navrangpura, Ahmedabad",
+      "zipCode": "380009"
+    },
+    "tax": {
+      "sgstPercent": 9,
+      "sgstAmount": 7.02,
+      "cgstPercent": 9,
+      "cgstAmount": 7.02
+    },
+    "note": "Repeat customer"
+  }
+]

@@ -51,4 +51,11 @@ else
     app.MapFallbackToFile("/", "index.html");
 }
 
+app.UseCors(builder =>
+    builder
+        .AllowAnyOrigin()
+        .AllowAnyHeader()
+        .AllowAnyMethod()
+);
+
 app.Run();
